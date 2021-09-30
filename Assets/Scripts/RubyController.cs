@@ -19,8 +19,6 @@ public class RubyController : MonoBehaviour
     bool isInvincible;
     float invincibleTimer;
     
-    
-    Rigidbody2D rigidbody2d;
 
     
     // Start is called before the first frame update
