@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
-<<<<<<< Updated upstream
+
    Rigidbody2D rigidbody2d;
-=======
+
     public float speed = 3.0f;
     
     public int maxHealth = 5;
@@ -21,17 +21,16 @@ public class RubyController : MonoBehaviour
     
     
     Rigidbody2D rigidbody2d;
->>>>>>> Stashed changes
+
     
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
-<<<<<<< Updated upstream
-=======
+
 
         currentHealth = maxHealth;
->>>>>>> Stashed changes
+
     }
 
     // Update is called once per frame
@@ -46,8 +45,7 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     }
-<<<<<<< Updated upstream
-=======
+
 
     public void ChangeHealth(int amount)
     {
@@ -64,5 +62,5 @@ public class RubyController : MonoBehaviour
         
         Debug.Log(currentHealth + "/" + maxHealth);
     }
->>>>>>> Stashed changes
+
 }
