@@ -5,8 +5,8 @@ using UnityEngine;
 public class RubyController : MonoBehaviour
 {
    Rigidbody2D rigidbody2d;
-   public GameObject (projectilePrefab);
-    
+   public GameObject projectilePrefab;
+
     // Start is called before the first frame update
     void Start()
     {
