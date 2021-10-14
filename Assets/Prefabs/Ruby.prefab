@@ -102,6 +102,7 @@ MonoBehaviour:
   maxHealth: 5
   projectilePrefab: {fileID: 0}
   timeInvincible: 2
+  shotClip: {fileID: 0}
 --- !u!50 &9131587010555392458
 Rigidbody2D:
   serializedVersion: 4
@@ -159,11 +160,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e406c04157c663a43b859646b7ad3c2a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
