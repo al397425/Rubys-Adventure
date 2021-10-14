@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    /*void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController e = other.collider.GetComponent<EnemyController>();
         if (e != null)
@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour
         }
 
         Destroy(gameObject);
-    }
+    }*/
 }
 
 
