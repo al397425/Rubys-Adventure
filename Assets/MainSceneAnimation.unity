@@ -10283,7 +10283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayTime: 4
-  dialogBox: {fileID: 0}
+  dialogBox: {fileID: 1586804994}
 --- !u!1001 &4441348092540953380
 PrefabInstance:
   m_ObjectHideFlags: 0
